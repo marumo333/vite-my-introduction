@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "http://marumo333.github.io/marumo333.github.io",
+    "homepage": "http://marumo333.github.io/vite-my-introduction",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
     "dev": "vite",
