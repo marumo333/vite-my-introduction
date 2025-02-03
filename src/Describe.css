@@ -9,7 +9,12 @@ span{
     padding: 0.5em 0.5em 0.5em 2em;
     color: #668ad8;
   }
-  
+p{
+  color: #f1f8ff;
+}
+h3{
+  color: #f1f8ff;
+}
 span{
     line-height: 1.5;
     padding: 0.5em 0;

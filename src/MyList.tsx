@@ -1,4 +1,5 @@
 import type { FC } from 'react';
+import React from 'react'; // これを追加
 import "./MyList.css"
 export interface List {
     id: string;
@@ -11,7 +12,7 @@ export interface List {
 
   const MyList: FC<Props> = ({ Lists }) => {
     return (
-      <>
+      <React.Fragment>
         <h2>経歴</h2>
         <ul>
           {Lists.map((list) => (
@@ -20,7 +21,7 @@ export interface List {
             </li>
           ))}
         </ul>
-      </>
+        </React.Fragment>
     );
   };
   
